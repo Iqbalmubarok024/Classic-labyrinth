@@ -12,6 +12,7 @@ public class CountDown : MonoBehaviour
     public UnityEvent<int> OnCount = new UnityEvent<int>();
 
     bool isCounting;
+    Sequence seq;
     public void StartCount()
     {
         if(isCounting == true)
@@ -19,7 +20,9 @@ public class CountDown : MonoBehaviour
         else
             isCounting = true;
 
-        var seq = DOTween.Sequence();
+        DOTween.Kill(seq);
+
+        seq = DOTween.Sequence();
 
         OnCount.Invoke(duration);
         for (int i = duration-1; i >= 0 ; i--)

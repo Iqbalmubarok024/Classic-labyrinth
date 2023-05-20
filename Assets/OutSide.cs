@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class OutSide : MonoBehaviour
 {
-   public UnityEvent OnBallEnter = new UnityEvent();
+     [SerializeField] CustomEvent customEvent;
 
    private void OnCollisionEnter(Collision other)
    {
@@ -16,7 +16,7 @@ public class OutSide : MonoBehaviour
    {
         if(other.CompareTag("Ball"))
         {
-            OnBallEnter.Invoke();
+            customEvent.OnInvoked.Invoke();
         }
    }
 }
