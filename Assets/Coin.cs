@@ -17,4 +17,5 @@ public class Coin : MonoBehaviour
         if(baseAnimation != null)
             baseAnimation.Animate(visual);
     }
+
 }

@@ -41,7 +41,7 @@ public class CameraController : MonoBehaviour
         var prevPos0 = touches[0].position - touches[0].deltaPosition;
         var prevPos1 = touches[1].position - touches[1].deltaPosition;
         var previousDistance = Vector2.Distance(prevPos0,prevPos1);
-        var currentDistance = Vector2.Distance(touches[0].position,touches[1].deltaPosition);
+        var currentDistance = Vector2.Distance(touches[0].position,touches[1].position);
         var deltaDistance = currentDistance - previousDistance;
 
         if (cam.orthographic)

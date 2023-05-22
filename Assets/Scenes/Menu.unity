@@ -671,17 +671,53 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 956418636}
-        m_TargetAssemblyTypeName: Scene, Assembly-CSharp
-        m_MethodName: GantiScene
-        m_Mode: 5
+      - m_Target: {fileID: 1982051556}
+        m_TargetAssemblyTypeName: CountDown, Assembly-CSharp
+        m_MethodName: StartCount
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 1
+          m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1665936399}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3262239691720712830}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1982051554}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &286977216
 MonoBehaviour:
@@ -1997,7 +2033,7 @@ GameObject:
   - component: {fileID: 1665936400}
   - component: {fileID: 1665936401}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2974,6 +3010,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2991,23 +3039,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.28125
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -3.234375
       objectReference: {fileID: 0}
     - target: {fileID: 8975968180453495716, guid: d3313458c41b4d041b0689294155b6d7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
